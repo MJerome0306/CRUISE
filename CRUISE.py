@@ -609,6 +609,7 @@ class UI(QMainWindow):
          type2 = self.ui2.SelectMap1.currentText()
          type3 = self.ui2.SelectMap2.currentText()
 
+    #Select Map 1
     def combo5(self):
         if type2 == 'Quasi 2D':
             print(type2)
@@ -630,6 +631,7 @@ class UI(QMainWindow):
         if type2 == 'Select Map Type':
             self.ui2.Map1Label.setText("Map 1")
 
+    #Select Map 2
     def combo6(self):
         if type3 == 'Quasi 2D':
             print(type3)
