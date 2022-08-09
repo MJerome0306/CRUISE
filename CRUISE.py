@@ -692,3 +692,5 @@ class UI(QMainWindow):
 app = QApplication(sys.argv)
 UIWindow = UI()
 app.exec_()
+
+
